@@ -45,7 +45,7 @@ def load_ai_model():
     """Load the trained model (called once at startup)"""
     global model, gradcam
     
-    model_path = 'models/best_model.h5'
+    model_path = 'models/densenet121_final.h5'
     
     if not os.path.exists(model_path):
         print("⚠️  WARNING: Model not found!")
@@ -128,7 +128,7 @@ def process_xray(image_path):
             'prediction': 'Fracture Detected' if is_fractured else 'Normal',
             'confidence': float(confidence * 100),
             'probability': float(prediction),
-            'is_fractured': is_fractured,
+            'is_fractured': bool(is_fractured),
             'gradcam_url': gradcam_url,
             'timestamp': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
             'demo_mode': model is None

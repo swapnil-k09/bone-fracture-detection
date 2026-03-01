@@ -1,5 +1,6 @@
 // Main JavaScript for Bone Fracture Detection System
-
+// madde by Swapnil kadam
+// march 2026
 // Global variables
 let selectedFile = null;
 

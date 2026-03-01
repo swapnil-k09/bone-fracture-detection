@@ -344,7 +344,7 @@ def print_model_summary(model: Model, save_path: Optional[str] = None):
     print("="*70 + "\n")
     
     if save_path:
-        with open(save_path, 'w') as f:
+        with open(save_path, 'w', encoding='utf-8') as f:
             model.summary(print_fn=lambda x: f.write(x + '\n'))
         print(f"✅ Model summary saved to: {save_path}")
 
