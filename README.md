@@ -284,5 +284,6 @@ This project is for educational and research purposes only.
 ---
 
 **Version**: 1.0.0  
-**Last Updated**: February 2026  
+**Last Updated**: February 2026
+**Made by**: Swapnil Kadam
 **Status**: In Development
