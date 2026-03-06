@@ -269,7 +269,7 @@ python -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU')
 
 ## 👥 Contributors
 
-- Your Name - Initial work
+- Swapnil Kadam
 
 ## 📝 License
 
