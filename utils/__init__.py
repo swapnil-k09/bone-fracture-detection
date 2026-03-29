@@ -15,7 +15,7 @@ from .data_loader import DatasetLoader, organize_mura_dataset
 from .augmentation import XRayAugmenter, get_keras_augmentation_generator
 from .visualization import XRayVisualizer, create_data_exploration_report
 from .model_builder import FractureDetectionModel, create_callbacks, print_model_summary
-from .gradcam import GradCAM, GradCAMPlusPlus, batch_visualize, compare_gradcam_methods
+from .gradcam import GradCAM
 
 __all__ = [
     # Preprocessing
